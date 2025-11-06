@@ -1,0 +1,19 @@
+Data types(Built in):
+
+Text - str(string) - "hello"
+Numeric - int,float,complex - 9, 4.6, 5+2j
+Sequence -  list,tuple,range - [1,2,3], (1,2), range(2)
+Mapping - dict - {1:'a',2:'g'}
+Set - set,frozenset - {1,2,4}
+Boolean - bool - True,False
+NoneType - None - None
+
+
+Mutable vs Immutable:
+
+Mutable(data types that can be changed) - list,dict,set
+Immutable(data types that cannot be changed) - str,tuple,int,float
+
+
+learned all the inbuilt datatypes in the python and also thier useful methods and built in functions for the different functionalities
+
