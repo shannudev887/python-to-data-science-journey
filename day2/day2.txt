@@ -1,0 +1,68 @@
+Today we will learn the data types deeply and the operators used on them.
+
+variables - is not fixed in the memory the variables points to an object of any type
+object -  object is a value of any data type, Once created it cant be changed or updated it will be stored anywhere in the memory 
+with a variable pointing to itif no variable is pointing to it then it will be considerd as garbage and it will be deleted from the memory immediatelly
+object is stored in this way type,value and it unique memory address.
+
+--Numbers--
+
+Integers:
+10,2,3
+isinstnace(9,int) - true
+
+integers have a subclass of boolean as they in either of the following values (0,False) and (1,True)
+isinstance for true wrt int will be true 
+
+Floats:
+floats are the numbers that will have the decimal values.
+python follow IEEE 754 double-precision format (64 bits) for float values.
+but the decimals for float are not precise there might be some approximation for the exact decial values we need to use the decimal.Decimal
+the decimal is a module in the python.
+decimal comes in the number but it in the built-in 
+
+a = Decimal('10.23') -> this how we will create a decimal object.
+when a decimal is created the isinstance will always be false for any of the built in numeric  types.
+
+complex numbers:
+complex numbers have one real and imaginary number(2+7j)
+
+
+--strings--
+
+strings are immutable once created cantbe changed if we perform or update anything to the string it will change its id that means it is getting
+created freshly 
+
+string methods:
+.upper() it will make the whole string to upperccase letters
+.lower() it will make the whole string to the lower case letters
+.strip() it will remove any trailing space in the string
+.split() it will convert the string into list object
+.join() it will add the list object to string
+.replce('char1','char2') will replace the char1 to the char2 parameter
+
+interning is a python usecase if the 2 varibles points to the same str obj then python considers both the variables as the same varible or
+reuses the same string
+
+--sequences--
+Lists
+tuples
+sets
+range
+
+--Lists--
+lists are the mutable sequence data type which will have comma sepreated values.
+lists can have mutliple datatypes unlike tuples.
+lists are resized dynamically.
+
+list methods:
+.append(value) the given value gets added at last index of the lists
+.extend(list or range()) it is used to add two lists we can use the range to create list in the particular range
+.insert(i,value) the value will be inserted at the given i i.e, index
+.remove(value) remove the given value
+.pop(i) it will remove the value at given index or if no index is given then the last index value is removed
+.clear() it will remove all the values in the list
+.index(value,start,end) returns the index of the occurance for the given value(only first occurance)
+.sort(revers=True) sort the values and we can also reverse the list sorting 
+.copy() copy the list to another variable
+list[start:stop:step] this  is slicing we will get the list in the given start and stop value following the step(this not a method but still adding)
