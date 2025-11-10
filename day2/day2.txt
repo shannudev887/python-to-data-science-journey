@@ -63,6 +63,108 @@ list methods:
 .pop(i) it will remove the value at given index or if no index is given then the last index value is removed
 .clear() it will remove all the values in the list
 .index(value,start,end) returns the index of the occurance for the given value(only first occurance)
-.sort(revers=True) sort the values and we can also reverse the list sorting 
+.sort(reverse=True) sort the values and we can also reverse the list sorting 
 .copy() copy the list to another variable
 list[start:stop:step] this  is slicing we will get the list in the given start and stop value following the step(this not a method but still adding)
+
+
+--Tuples--
+tuples are another datatype in the sequences but unlike lists tuples are immutable(once created cannot be updated).
+tuples are used for the fixed sequences and they are faster than llists
+tuples cant hold multiple data types
+tuples are immutable thats why they dont have lots of methods
+
+.count(value) it will count the no.of occurance of the value in the tuple
+.index(value,start,end) it will find the value return the index of the given value and also we can give the start and end desired index
+
+
+--sets--
+sets are mutable sequences and they carry any index.
+They are unordered and they dont carry duplicates.
+
+set methods:
+.add(value) adds an element at the end of the set
+.update(sequnece/range function) this will add the elements of the sequence and we can also use the range functions
+.remove(value) this can be used to remove the value an if that value is not present in the set it will give key error
+.discard(value) this will remove the value if present and it will not give any error when the given element is not given
+.pop() it will remove the random value from the list
+.clear() this will clears the enitre set
+
+
+
+--dict--
+dicts are the collections of key value pairs
+the keys should be unique and each key will be assigned with a value
+dicts can be created using different methods 
+
+d = {} #empty dict
+d = {1:"ad",2:2} this is the basic dict creation and in this type we can give the numeric keys directly
+d = dict("name":"shannu") this type does not allow directly to give the numeric keys but we can give the list of tuples and list for the numeric keys
+i.e, d = dict([(1,"shannu),(2,"name)]) or d = dict([[1,"shannu],[2,"name]]) 
+
+
+--operators--
+
+arithmetic operators: 
+
+This type of operators are used to perform numberic calculation between numeric types and in some cased booleans(1 or 0)
+'+' -- addition
+'-' -- subtraction
+'*' -- multiplication
+'/' -- divison
+'//' -- divison to get integer value always floor
+'%  -- it will give the reminder after the divison
+'**' -- exponent(2^2)
+
+assignment operators:
+
+This type of operators are used to assigning the values as well in the incrimenting or decrementing the values
+
+'=' -- assign a obj to variable
+'+=' -- increment the value or adding the value and then assigning it to the same varible
+'-=' -- decrement the value or subtration of the value and then assigning it to the same variable
+similarly the remaining arithmetic operators can be used in the same way to perform the operation and assign the value to the same variable
+
+
+comparison operators:
+
+This type are used to compare or check the relation between the two values
+
+'==' equals to 
+"!=" not equals to
+">"  greater than 
+"<"  less than 
+">=" greater than or equals to 
+"<=" less than or equals to
+
+logical operators:
+
+'and' - both vaules or ture then only true
+'or' - both values or false then only false
+'not - negates the result
+
+Bitwise operators:
+Operator  Name        Example         Binary Result        
+
+`&`       AND         `5 & 3` → `1`   `0101 & 0011 = 0001` 
+`         `           OR              `5                   
+`^`       XOR         `5 ^ 3` → `6`   `0101 ^ 0011 = 0110` 
+`~`       NOT         `~5` → `-6`     Flips bits           
+`<<`      Left Shift  `5 << 1` → `10` Shifts bits left     
+`>>`      Right Shift `5 >> 1` → `2`  Shifts bits right    
+
+Membership operators:
+
+checks if a value is a part of other value or not and returns a boolean value
+
+'in' 
+'not in'
+
+identity operators:
+
+This type of operators are used to if the two values are refered to same value or not 
+
+'is' 
+'is not'
+
+
