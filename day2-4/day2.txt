@@ -102,6 +102,19 @@ d = {1:"ad",2:2} this is the basic dict creation and in this type we can give th
 d = dict("name":"shannu") this type does not allow directly to give the numeric keys but we can give the list of tuples and list for the numeric keys
 i.e, d = dict([(1,"shannu),(2,"name)]) or d = dict([[1,"shannu],[2,"name]]) 
 
+dict methods:
+.clear() this will clears the entire dictionary
+.copy() this will help to copy the dict to other variable
+.fromkeys(list,value)  this will create the dict with the list that can be fixed or the range function and will assign the value to list keys
+.get(key,default=value) it will give the value of the specified key and if not there it will return default or none
+.items() returns all the key value pairs in the dict
+.keys() returns the list of keys
+.values() returns the list of values 
+.update({key:value}) it will add the key value to the dict 
+.pop(key) it will remove the specified key and return the value and gives error if default is not given
+.popitem() last index value will be removed from the dict
+.setdefault('key',value) add the key and value if not present
+
 
 --operators--
 

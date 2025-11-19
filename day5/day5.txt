@@ -1,0 +1,52 @@
+--control flow--
+
+control flow helps you to understand how to control the working of a python program.
+we can control the execution, logic, validation and iteration in the control flow.
+
+control flow / flow control consists of the following:
+
+conditional statements:
+
+conditional statements allow the program to make decision based on the conditions given
+we can use the comparison operators as well as the logical operators
+as the python works on the indentation every conditional blocks are indentend with logic inside that should be executed when the given condition
+is true based on the given condition
+
+the following are the conditional statements-
+if:
+elif:/elseif()
+else:
+
+we can use the not or ~ to make the false condition work 
+we can use the if,elif and else in a sequence. if the first condition is not ture then then elif will executed and all the elifs are not true
+then the else condition will be executed
+we can also write the if else condition in one liner like this "value if condition else value"
+
+
+looping:
+
+loops are used to run a code block for the desired no.of iterations
+loops either run for the given no.of time or until the desired condition is achieved
+
+there are 2 types in the loops-
+
+for loop-
+
+for loop is used to iterate through the sequence, index of the given sequence and the range function.
+the loop will end after the sequence end or the given range of values
+we can use an else statement to print a statement for example
+we can use the continue to skip the exection of the code block inside using if condition and break inside a if condition to stop if the condition 
+is true.
+we can also use the pass statement which is a no-operation statement it used syntactically requried
+we can use the pass when ever the function is empty or class is empty and we have to run the code
+
+while loop-
+
+while loops are used to run a code block until a condition that is implemented inside the loop gets the desired output or it depend upon the 
+code block execution. 
+the loop will exectue only when the condition is true and it will run until the condition is false
+after every iteration the condition is checked if the condition is achieved then the loop will stop running
+we can use the continue,break and pass in the while loops aswell
+there is no do while loop in the python but we can use the true and give the condition and check at the last of the iteration.
+do while is used to run the code atleast once before checking the condition this will be helpful in taking the user inputs.
+
